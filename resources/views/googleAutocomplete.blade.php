@@ -83,7 +83,7 @@
 
         var service = new google.maps.places.PlacesService(map);
         service.nearbySearch(request, function (results, status) {
-            console.log(results[0].vicinity)
+            // console.log(results[0].vicinity)
             if (status === google.maps.places.PlacesServiceStatus.OK) {
                 for (var i = 0; i < results.length; i++) {
                     createMarker(results[i], map);
@@ -124,7 +124,7 @@
             var bounds = new google.maps.LatLngBounds();
             places.forEach(function (place) {
                 if (!place.geometry) {
-                    console.log("Returned place contains no geometry");
+                    // console.log("Returned place contains no geometry");
                     return;
                 }
 

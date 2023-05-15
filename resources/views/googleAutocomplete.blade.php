@@ -18,6 +18,32 @@
         .title{
             font-family: Fantasy;
         }
+        @media only screen and (max-width: 768px) {
+           body{
+               background-color: orange;
+           }
+            #map {
+                width: 600px;
+                height: 300px;
+            }
+            .title{
+                font-family: Fantasy;
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            body{
+                background-color: orange;
+            }
+            #map {
+                width: 300px;
+                height: 200px;
+            }
+            .title{
+                font-family: Fantasy;
+            }
+        }
+
     </style>
 </head>
 

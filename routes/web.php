@@ -13,7 +13,7 @@ use App\Http\Controllers\GoogleController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('google-autocomplete', 'App\Http\Controllers\GoogleController@index');
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+Route::get('/', 'App\Http\Controllers\GoogleController@index');

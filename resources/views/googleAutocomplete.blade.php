@@ -50,7 +50,7 @@
 
 <body>
 <div style="padding: 50px" class="container">
-    <h2 class="title">Bang Sue Restaurants</h2>
+    <h2 class="title">Bang Sue Restaurantsttttt</h2>
     <div class="row">
         <div class="col-sm">
             <div id="map"></div>
